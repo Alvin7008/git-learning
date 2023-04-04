@@ -1,0 +1,20 @@
+*************************Git Commands*************************
+
+
+#touch file.txt  ==  to create a file in directory
+#ls == to get list of files in directory
+
+#git init     == To initialize git
+#git add . (for all files use .) or git add filename.txt  === to add the file to git
+#git restore --staged filename.ext  ==  to remove any added file
+
+#git status  == To check the status of files
+#git commit -m "Type the message" == To commit the git
+
+
+#To edit a file use "vi filename.txt"
+##Then press "i" to edit
+## To ext press "Esc" then type ":x"
+
+
+
