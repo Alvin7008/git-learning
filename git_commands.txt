@@ -31,3 +31,10 @@
 #git stash pop  == to add the files in the background.
 #git stash clear  ==  to clear the files in stash
 
+#git config --global user.email   == to check the email associated with git account
+#git remote -v   == to check which github repo is connected
+
+
+#git remote add origin https://github.com/Alvin7008/quizz_app.git  == to add github repo to local repo
+
+#git push -u origin main  == to push the code in master branch to origin repo
