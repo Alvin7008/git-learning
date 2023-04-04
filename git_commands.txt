@@ -11,6 +11,12 @@
 #git status  == To check the status of files
 #git commit -m "Type the message" == To commit the git
 
+#git log  == to see what all changes made
+
+#rm -rf filename.txt  ==  to delete a file
+
+
+#git reset the_hash_key (the commit key, can see using "git log")
 
 #To edit a file use "vi filename.txt"
 ##Then press "i" to edit
