@@ -22,5 +22,12 @@
 ##Then press "i" to edit
 ## To ext press "Esc" then type ":x"
 
+#git cat  == to view contents of the text file
+
+
+
+#git stash == For temp storing files in the background, any time we can call back (Used after "git add" before commit.)
+
+#git stash pop  == to add the files in the background.
 
 
