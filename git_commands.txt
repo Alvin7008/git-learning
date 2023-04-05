@@ -2,21 +2,26 @@
 
 
 #touch file.txt  ==  to create a file in directory
+
 #ls == to get list of files in directory
 
 #git init     == To initialize git
+
 #git add . (for all files use .) or git add filename.txt  === to add the file to git
+
 #git restore --staged filename.ext  ==  to remove any added file
 
 #git status  == To check the status of files
+
 #git commit -m "Type the message" == To commit the git
 
 #git log  == to see what all changes made
 
 #rm -rf filename.txt  ==  to delete a file
 
-
 #git reset the_hash_key (the commit key, can see using "git log")
+
+
 
 #To edit a file use "vi filename.txt"
 ##Then press "i" to edit
@@ -29,12 +34,23 @@
 #git stash == For temp storing files in the background, any time we can call back (Used after "git add" before commit.)
 
 #git stash pop  == to add the files in the background.
+
 #git stash clear  ==  to clear the files in stash
 
-#git config --global user.email   == to check the email associated with git account
-#git remote -v   == to check which github repo is connected
 
+
+#git config --global user.email   == to check the email associated with git account
+
+#git remote -v   == to check which github repo is connected
 
 #git remote add origin https://github.com/Alvin7008/quizz_app.git  == to add github repo to local repo
 
 #git push -u origin main  == to push the code in master branch to origin repo
+
+#git branch branchname  == to create a new branch, unfinalized code always commit on new branch
+
+#git checkout branchname  == Now the head will point to this branch, head is a pointer which says all the changes we commit after this will added to this branch.
+
+#git checkout -b branchname == To create a new branch and checkout at same time.
+ 
+#git merge branchname  == to merge branch with main branch
