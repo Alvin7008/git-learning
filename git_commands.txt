@@ -45,7 +45,9 @@
 
 #git remote add origin https://github.com/Alvin7008/quizz_app.git  == to add github repo to local repo
 
-#git push -u origin main  == to push the code in master branch to origin repo
+#git push -u origin main / #git push origin main   == to push the code in master branch to origin repo
+
+#git push origin main -f  === to force push
 
 #git branch branchname  == to create a new branch, unfinalized code always commit on new branch
 
@@ -54,3 +56,15 @@
 #git checkout -b branchname == To create a new branch and checkout at same time.
  
 #git merge branchname  == to merge branch with main branch
+
+
+
+#git clone url(forked repo or any repo url)  ==  download the github repot to the local directory.
+
+#git remote add upstream url == The url where you forked the file
+
+
+#git pull upstream main == To pull the code from the main repo where we forked
+
+
+
